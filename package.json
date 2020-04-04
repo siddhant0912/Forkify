@@ -4,7 +4,7 @@
     "description": "",
     "main": "script.js",
     "scripts": {
-        "dev": "webpack-dev-server --mode devnpm i minimistelopment --open",
+        "dev": "webpack-dev-server --mode development --open",
         "build": "webpack --mode production",
         "prod": "nodemon app.js",
         "start": "node app.js"
