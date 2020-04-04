@@ -4,9 +4,10 @@
     "description": "",
     "main": "script.js",
     "scripts": {
-        "dev": "webpack --mode development",
+        "dev": "webpack-dev-server --mode development --open",
         "build": "webpack --mode production",
-        "start": "webpack-dev-server --mode development --open"
+        "prod": "nodemon app.js",
+        "start": "node app.js"
     },
     "author": "Siddhant Arekar",
     "license": "ISC",
@@ -24,6 +25,7 @@
     "dependencies": {
         "axios": "^0.19.2",
         "babel-polyfill": "^6.26.0",
+        "express": "^4.17.1",
         "fractional": "^1.0.0",
         "uniqid": "^5.2.0"
     }
